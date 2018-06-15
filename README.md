@@ -1,0 +1,1 @@
+usb-mini-debug-adapter

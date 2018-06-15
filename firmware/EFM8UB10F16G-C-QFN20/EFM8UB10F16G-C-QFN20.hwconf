@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ASCII"?>
+<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/ss/hwconfig/document/device.ecore" name="EFM8UB10F16G-C-QFN20" partId="mcu.8051.efm8.ub1.efm8ub10f16g-c-qfn20" version="4.0.1" contextId="%DEFAULT%">
+  <mode name="DefaultMode">
+    <property object="ADC_0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="ADC_0" propertyId="adc.accumulatorconfiguration.enable12bitmode" value="Enabled"/>
+    <property object="ADC_0" propertyId="adc.accumulatorconfiguration.repeatcount" value="4 conversions"/>
+    <property object="ADC_0" propertyId="adc.configuration.gaincontrol" value="1x gain"/>
+    <property object="ADC_0" propertyId="adc.configuration.resolution" value="12-bit"/>
+    <property object="ADC_0" propertyId="adc.configuration.sarclockdivider" value="3"/>
+    <property object="ADC_0" propertyId="adc.control.enableadc" value="Enabled"/>
+    <property object="ADC_0" propertyId="adc.control.enableburstmode" value="Enabled"/>
+    <property object="ADC_0" propertyId="adc.multiplexerselection.positiveinputselection" value="ADC0.0 (P0.0)"/>
+    <property object="CROSSBAR0" propertyId="xbar0.uart0.data" value="Enabled"/>
+    <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
+    <property object="INTERRUPT_0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="INTERRUPT_0" propertyId="interrupt.interruptenable.enableallinterrupts" value="Enabled"/>
+    <property object="P0.0" propertyId="ports.settings.inputmode" value="Analog"/>
+    <property object="P0.0" propertyId="ports.settings.iomode" value="Analog I/O"/>
+    <property object="P0.0" propertyId="ports.settings.skip" value="Skipped"/>
+    <property object="P0.1" propertyId="ports.settings.inputmode" value="Analog"/>
+    <property object="P0.1" propertyId="ports.settings.iomode" value="Analog I/O"/>
+    <property object="P0.4" propertyId="ports.settings.iomode" value="Digital Push-Pull Output"/>
+    <property object="P0.4" propertyId="ports.settings.outputmode" value="Push-pull"/>
+    <property object="P0.7" propertyId="ports.settings.inputmode" value="Analog"/>
+    <property object="P0.7" propertyId="ports.settings.iomode" value="Analog I/O"/>
+    <property object="PBCFG_0" propertyId="pbcfg.settings.enablecrossbar" value="Enabled"/>
+    <property object="USBLIB_0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="USBLIB_0" propertyId="device.deviceproperties.bmaxpacketsize" value="64"/>
+    <property object="USBLIB_0" propertyId="endpoints.endpoint1in.bulkmaxpacketsizebytes" value="64"/>
+    <property object="USBLIB_0" propertyId="endpoints.endpoint1in.endpoint1in" value="Enabled"/>
+    <property object="USBLIB_0" propertyId="endpoints.endpoint1in.maxpacketsizebytes" value="64"/>
+    <property object="USBLIB_0" propertyId="endpoints.endpoint1out.endpoint1out" value="Enabled"/>
+    <property object="USBLIB_0" propertyId="endpoints.endpoint2in.associatedinterface" value="1"/>
+    <property object="USBLIB_0" propertyId="endpoints.endpoint2in.bulkmaxpacketsizebytes" value="64"/>
+    <property object="USBLIB_0" propertyId="endpoints.endpoint2in.endpoint2in" value="Enabled"/>
+    <property object="USBLIB_0" propertyId="endpoints.endpoint2in.maxpacketsizebytes" value="64"/>
+    <property object="USBLIB_0" propertyId="endpoints.endpoint2out.associatedinterface" value="1"/>
+    <property object="USBLIB_0" propertyId="endpoints.endpoint2out.bulkmaxpacketsizebytes" value="64"/>
+    <property object="USBLIB_0" propertyId="endpoints.endpoint2out.endpoint2out" value="Enabled"/>
+    <property object="USBLIB_0" propertyId="endpoints.endpoint2out.maxpacketsizebytes" value="64"/>
+    <property object="USBLIB_0" propertyId="interfaces.interface0.interfacesubclass" value="255"/>
+    <property object="USBLIB_0" propertyId="interfaces.interface0.protocol" value="255"/>
+    <property object="USBLIB_0" propertyId="interfaces.interface1.interfaceclass" value="Communications and CDC Control"/>
+    <property object="USBLIB_0" propertyId="interfaces.interface1.interfacesubclass" value="2"/>
+    <property object="USBLIB_0" propertyId="interfaces.interface1.protocol" value="2"/>
+    <property object="USBLIB_0" propertyId="interfaces.interfaceparameters.numberofinterfaces" value="2"/>
+    <property object="WDT_0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="WDT_0" propertyId="wdt.watchdogcontrol.wdtenable" value="Disable"/>
+  </mode>
+  <modeTransition>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.target" value="DefaultMode"/>
+  </modeTransition>
+</device:XMLDevice>
